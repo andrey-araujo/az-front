@@ -24,3 +24,47 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.inputName {
+  @apply text-[#FE7C6E] font-semibold;
+}
+
+.inputField {
+  @apply mb-4 mt-2 h-12 w-full bg-white rounded-md flex items-center text-zinc-400 border-[1px] border-zinc-300 px-4 hover:border-zinc-400;
+}
+
+.button {
+  @apply rounded-md h-12 bg-[#FE7C6E] text-white;
+}
+
+.imagemAz {
+  @apply h-full;
+}
+
+.card {
+  @apply w-[360px] h-44;
+}
+
+.tableHeader1 {
+  @apply px-3 py-2 text-left border-b border-gray-300 font-bold text-sm bg-[#FE877A];
+}
+
+.tableHeader2 {
+  @apply px-3 py-2 text-left border-b border-gray-300 font-bold text-sm bg-[#FE7C6E];
+}
+
+.tableCell1 {
+  @apply px-3 py-2 border-b border-gray-300 text-xs h-14;
+}
+
+.tableCell2 {
+  @apply px-3 py-2 border-b border-gray-300 text-xs h-14 bg-[#FCFCFC];
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
